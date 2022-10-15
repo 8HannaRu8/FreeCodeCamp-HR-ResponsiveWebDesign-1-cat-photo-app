@@ -33,3 +33,21 @@ arr2 = [...arr1];
 arr1[0] = 'potato'
 }) ();
 console.log(arr2);
+
+
+
+
+class Book {
+  constructor(author) {
+    this._author = author;
+  }
+
+  // getter
+  get writer() {
+    return this._author;
+  }
+  // setter
+  set writer(updatedAuthor) {
+    this._author = updatedAuthor;
+  }
+}
