@@ -51,3 +51,20 @@ class Book {
     this._author = updatedAuthor;
   }
 }
+
+const toDoList = [
+{
+id: 1,
+text: 'laundry',
+isCompleted: true
+},
+
+{
+id: 2,
+text: 'cooking',
+isCompleted: false
+}
+];
+
+const newToDoList = JSON.stringify(toDoList);
+console.log(newToDoList);
